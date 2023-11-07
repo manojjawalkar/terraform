@@ -1,0 +1,5 @@
+Copy the public IP from the aws console and open it in a browser using http://<PUBLIC_IP>
+
+You should see below line but the region and the ip will be different depending on what you chose.
+
+Hello World from ip-172-31-8-189.ap-south-1.compute.internal
