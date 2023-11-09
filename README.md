@@ -1,4 +1,4 @@
-# Terraform Examples 
+# Terraform Examples on AWS
 
 ## This repo has shows some basic examples of how to use Terraform to manage your Infrastructure
 
