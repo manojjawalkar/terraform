@@ -3,8 +3,9 @@ resource "aws_instance" "second_demo_ec2" {
   instance_type = "${var.aws_instance_type}"
   key_name = "first_EC2_key_pair"
   vpc_security_group_ids = ["${aws_security_group.demo02.id}"]
+  count = 3
   tags = {
-    Name = "udemy_01"
+    Name = "using_count_${count.index}"
   }
   user_data = <<-EOF
     #!/bin/bash
