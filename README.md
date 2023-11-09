@@ -1,6 +1,6 @@
-# terraform
+# Terraform Examples 
 
-This repo has shows some basic examples of how to use Terraform to manage your Infrastructure
+## This repo has shows some basic examples of how to use Terraform to manage your Infrastructure
 
 1. Deploy_Ec2: This shows how to deploy a single EC2 machine on aws
 2. user_data_and_security-group_ec2: Here you can see how to deploy an EC2 instance and create and assign a security group to that instance. This uses `user_data` that will install httpd on our EC2 instance
