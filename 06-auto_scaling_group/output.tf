@@ -1,3 +1,3 @@
 output "public_ips" {
-  value = [aws_instance.web_server.*.public_ip]
+  value = [aws_autoscaling_group.tf_ASG.arn]
 }
